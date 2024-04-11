@@ -76,12 +76,12 @@ function App({
         const elements = document.querySelectorAll("#unicorn");
         setUnicorns(elements);
         const interval = setInterval(() => {
-            const shouldActivate1 = Math.random() < 0.5;
-            const shouldActivate_1 = Math.random() < 0.5;
-            const shouldActivate2 = Math.random() < 0.5;
-            const shouldActivate3 = Math.random() < 0.5;
-            const shouldActivate4 = Math.random() < 0.5;
-            const shouldActivate5 = Math.random() < 0.5;
+            const shouldActivate1 = Math.random() < 0.4;
+            const shouldActivate_1 = Math.random() < 0.4;
+            const shouldActivate2 = Math.random() < 0.4;
+            const shouldActivate3 = Math.random() < 0.4;
+            const shouldActivate4 = Math.random() < 0.4;
+            const shouldActivate5 = Math.random() < 0.4;
             setActivate1(shouldActivate1);
             setActivate_1(shouldActivate_1);
             setActivate2(shouldActivate2);
@@ -171,37 +171,37 @@ function App({
             <img
                 src={grass}
                 className="grass1"
-                style={{ animation: activate1 ? "shake 1s" : "none" }}
+                style={{ animation: activate1 ? "shake 0.75s" : "none" }}
             ></img>
             <img
                 src={grass}
                 className="grass_1"
-                style={{ animation: activate_1 ? "shake 1s" : "none" }}
+                style={{ animation: activate_1 ? "shake 0.75s" : "none" }}
             ></img>
             <img
                 src={grass}
                 className="grass2"
-                style={{ animation: activate2 ? "shake 1s" : "none" }}
+                style={{ animation: activate2 ? "shake 0.75s" : "none" }}
             ></img>
             <img
                 src={grass}
                 className="grass3"
-                style={{ animation: activate3 ? "shake 1s" : "none" }}
+                style={{ animation: activate3 ? "shake 0.75s" : "none" }}
             ></img>
             <img
                 src={grass}
                 className="grass4"
-                style={{ animation: activate4 ? "shake 1s" : "none" }}
+                style={{ animation: activate4 ? "shake 0.75s" : "none" }}
             ></img>
             <img
                 src={grass}
                 className="grass5"
-                style={{ animation: activate5 ? "shake 1s" : "none" }}
+                style={{ animation: activate5 ? "shake 0.75s" : "none" }}
             ></img>
             <img
                 src={grass}
                 className="grass6"
-                style={{ animation: activate5 ? "shake 1s" : "none" }}
+                style={{ animation: activate5 ? "shake 0.75s" : "none" }}
             ></img>
             {/* <div className="circle">
                 <img
