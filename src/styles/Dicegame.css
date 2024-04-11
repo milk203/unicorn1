@@ -1,0 +1,252 @@
+.dicegame-main {
+    /* background-color: darkgreen; */
+    background-image: url('../images/grassBackground1.png');
+    /* background-size: 50% calc(100vh - 50px);  */
+    /* background-size: 100vh 100vh; */
+    /* background-position: center; */
+    background-repeat: no-repeat; 
+    background-size: 100% calc(100vh - 50px);
+    
+}  
+
+@keyframes shake {
+  0% { transform: translate(0, 0); }
+  10%, 30%, 50%, 70%, 90% { transform: translate(-5px, 0); }
+  20%, 40%, 60%, 80%, 100% { transform: translate(5px, 0); }
+}
+
+@keyframes moveImage {
+0% {
+  top: 0;
+  left: 0;
+}
+25% {
+  top: 0;
+  left: calc(100vw - 100px);
+}
+50% {
+  top: calc(100vh - 100px);
+  left: calc(100vw - 100px);
+}
+75% {
+  top: calc(100vh - 100px);
+  left: 0;
+}
+100% {
+  top: 0;
+  left: 0;
+}
+}
+
+.grass1 {
+    z-index: 2;
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+}
+
+.grass_1{
+  z-index: 2;
+  width: 12%;
+  height: 24%;
+  position: absolute;
+  top: 33%;
+  left: 55%;
+  right: 0;
+  bottom: 0;
+}
+
+.grass2 {
+    z-index: 2;
+
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    top: 29%;
+    left: 75%;
+    right: 0;
+    bottom: 0;
+
+}
+
+.grass3 {
+    z-index: 2;
+
+    width: 15%;
+    height: 22%;
+    position: absolute;
+    top: 49%;
+    left: 6%;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.grass4 {
+    z-index: 2;
+
+    width: 11%;
+    height: 30%;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    right: 0;
+    bottom: 0;
+}
+
+
+.grass5 {
+    z-index: 2;
+    width: 8%;
+    height: 35%;
+    position: absolute;
+    top: 25%;
+    left: 90%;
+    right: 0;
+    bottom: 0;
+    
+}
+
+.grass6 {
+  z-index: 2;
+  width: 8%;
+  height: 35%;
+  position: absolute;
+  top: 22%;
+  left: 23%;
+  right: 0;
+  bottom: 0;
+  
+}
+
+.unicorn1, .unicorn2, .unicorn3, .unicorn4, .unicorn5, .unicorn6 {
+    z-index: 5;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    opacity: 0;
+    transition: transform 1s, right 1s, bottom 1s, left 1s, top 1s, opacity 1s; 
+  }
+
+.unicorn1 {
+  height: 12%;
+  width: 8%;
+  top: 60%;
+  left: 9%;
+  right: 0;
+  bottom: 0;
+}
+
+.unicorn2 {
+  height: 12%;
+  width: 8%;
+  top: 41%;
+  left: 23%;
+  right: 0;
+  bottom: 0;
+  
+}
+
+.unicorn3 {
+  height: 12%;
+  width: 8%;
+  top: 48%;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+}
+
+
+.unicorn4 {
+  height: 12%;
+  width: 8%;
+  top: 56%;
+  left: 71%;
+  right: 0;
+  bottom: 0;
+}
+
+.unicorn5 {
+  height: 12%;
+  width: 8%;
+  top: 37%;
+  left: 78%;
+  right: 0;
+  bottom: 0; 
+}
+
+.unicorn6 {
+   height: 12%;
+  width: 8%;
+  top: 45%;
+  left: 90%;
+  right: 0;
+  bottom: 0;
+}
+
+.test-button {
+  width: 10%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.unicorn1.enlarged, .unicorn2.enlarged, .unicorn3.enlarged, .unicorn4.enlarged, .unicorn5.enlarged, .unicorn6.enlarged {
+  transform: scale(1.75);
+  opacity: 1;
+}
+
+.unicorn1.moved {
+  top: 15%;
+  left: 3%;
+  right: 0;
+  bottom: 0;
+}
+
+.unicorn2.moved {
+  top: 15%;
+  left: 12%;
+  right: 0;
+  bottom: 0;
+}
+
+
+.unicorn3.moved {
+  top: 15%;
+  left: 21%;
+  right: 0;
+  bottom: 0;
+}
+
+
+.unicorn4.moved {
+  top: 15%;
+  left: 30%;
+  right: 0;
+  bottom: 0;
+}
+
+
+.unicorn5.moved {
+  top: 15%;
+  left: 39%;
+  right: 0;
+  bottom: 0;
+}
+
+
+.unicorn6.moved {
+  top: 15%;
+  left: 48%;
+  right: 0;
+  bottom: 0;
+}
+
